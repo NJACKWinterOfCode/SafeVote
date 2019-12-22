@@ -37,7 +37,7 @@ contract SampleVoting {
 
     function addCandidate (string memory _name) private {
         candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);
-        candidatesCount ++;
+        candidatesCount++;
     }
     function register(uint aadhar,string memory name,string memory email,uint mob) public {
 
